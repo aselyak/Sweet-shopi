@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #443a35;
+    background-color: #fffaf5;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee2d8;
+    padding: 18px 7%;
+}
+
+.header__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #8b5e3c;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu__link {
+    font-size: 15px;
+}
+
+.menu__link:hover {
+    color: #b77a50;
+}
+
+.welcome {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 65px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.welcome__text {
+    max-width: 520px;
+}
+
+.welcome__small {
+    color: #9a704f;
+    margin-bottom: 12px;
+}
+
+.welcome__title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.welcome__description {
+    margin-bottom: 25px;
+    color: #70635b;
+}
+
+.welcome__button {
+    display: inline-block;
+    background-color: #9a704f;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
+
+.welcome__button:hover {
+    background-color: #785437;
+}
+
+.welcome__image {
+    width: 42%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.sweets,
+.prices,
+.contacts {
+    padding: 55px 7%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 28px;
+}
+
+.sweets__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sweet-card {
+    background-color: #ffffff;
+    border: 1px solid #eee2d8;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+}
+
+.sweet-card__emoji {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.sweet-card__title {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.sweet-card__text {
+    color: #70635b;
+}
+
+.prices__table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.prices__table th,
+.prices__table td {
+    border: 1px solid #e4d6ca;
+    padding: 12px;
+    text-align: center;
+}
+
+.prices__table th {
+    background-color: #f0e3d7;
+}
+
+.prices__table tr:nth-child(odd) {
+    background-color: #fff4e9;
+}
+
+.about {
+    background-color: #f4e8dc;
+    padding: 55px 7%;
+}
+
+.about__box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about__text {
+    margin-bottom: 18px;
+}
+
+.about__list {
+    padding-left: 25px;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts__text {
+    margin-bottom: 15px;
+}
+
+.contacts__item {
+    margin: 8px 0;
+}
+
+.contacts__item a {
+    color: #8b5e3c;
+}
+
+.contacts__item a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #443a35;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer__text {
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .header__inner {
+        flex-direction: column;
+    }
+
+    .menu {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .welcome {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .welcome__title {
+        font-size: 32px;
+    }
+
+    .welcome__image {
+        width: 100%;
+    }
+
+    .sweets__list {
+        flex-direction: column;
+    }
+
+    .prices__table th,
+    .prices__table td {
+        padding: 8px 4px;
+        font-size: 13px;
+    }
+}

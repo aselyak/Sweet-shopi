@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650">
+<rect width="900" height="650" fill="#f2e5d8"/>
+<rect x="55" y="55" width="790" height="540" rx="35" fill="#fffaf5"/>
+<ellipse cx="450" cy="440" rx="260" ry="75" fill="#e7d4c2"/>
+<circle cx="300" cy="340" r="90" fill="#b97b50"/>
+<circle cx="300" cy="340" r="73" fill="#e6b77e"/>
+<circle cx="275" cy="315" r="10" fill="#6d4430"/>
+<circle cx="330" cy="330" r="10" fill="#6d4430"/>
+<circle cx="290" cy="360" r="10" fill="#6d4430"/>
+<circle cx="330" cy="370" r="10" fill="#6d4430"/>
+<rect x="420" y="260" width="150" height="180" rx="16" fill="#6f4938" transform="rotate(-8 495 350)"/>
+<rect x="435" y="275" width="120" height="150" rx="8" fill="#9b674d" transform="rotate(-8 495 350)"/>
+<path d="M450 300 L540 390 M475 285 L555 365 M435 330 L520 415" stroke="#f0d5a6" stroke-width="12" transform="rotate(-8 495 350)"/>
+<circle cx="630" cy="340" r="75" fill="#d8a36e"/>
+<circle cx="630" cy="340" r="57" fill="#f0c99a"/>
+<circle cx="610" cy="325" r="8" fill="#6d4430"/>
+<circle cx="645" cy="345" r="8" fill="#6d4430"/>
+<circle cx="620" cy="365" r="8" fill="#6d4430"/>
+<text x="450" y="150" font-family="Arial, sans-serif" font-size="46" text-anchor="middle" fill="#8b5e3c">Sweet Shop</text>
+<text x="450" y="195" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#9a704f">Something sweet for every day</text>
+</svg>

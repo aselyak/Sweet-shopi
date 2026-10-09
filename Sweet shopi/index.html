@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Shop — магазин сладостей</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="home">
+        <div class="header__inner">
+            <a class="header__logo" href="#home">Sweet Shop</a>
+            <nav class="menu">
+                <a class="menu__link" href="#sweets">Сладости</a>
+                <a class="menu__link" href="#prices">Цены</a>
+                <a class="menu__link" href="#about">О нас</a>
+                <a class="menu__link" href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <div class="welcome__text">
+                <p class="welcome__small">Маленький магазин хорошего настроения</p>
+                <h1 class="welcome__title">Сладкие моменты каждый день</h1>
+                <p class="welcome__description">Печенье, конфеты и десерты для уютных встреч и приятных подарков.</p>
+                <a class="welcome__button" href="#sweets">Посмотреть сладости</a>
+            </div>
+            <img class="welcome__image" src="img/sweets.svg" alt="Печенье и сладости">
+        </section>
+
+        <section class="sweets" id="sweets">
+            <h2 class="section-title">Наши сладости</h2>
+            <div class="sweets__list">
+                <article class="sweet-card">
+                    <div class="sweet-card__emoji">🍪</div>
+                    <h3 class="sweet-card__title">Печенье</h3>
+                    <p class="sweet-card__text">Хрустящее и ароматное.</p>
+                </article>
+                <article class="sweet-card">
+                    <div class="sweet-card__emoji">🍫</div>
+                    <h3 class="sweet-card__title">Шоколад</h3>
+                    <p class="sweet-card__text">Для любителей какао.</p>
+                </article>
+                <article class="sweet-card">
+                    <div class="sweet-card__emoji">🧁</div>
+                    <h3 class="sweet-card__title">Кексы</h3>
+                    <p class="sweet-card__text">Нежные десерты к чаю.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="prices" id="prices">
+            <h2 class="section-title">Наши цены</h2>
+            <table class="prices__table">
+                <thead>
+                    <tr>
+                        <th>Сладость</th>
+                        <th>Вес</th>
+                        <th>Цена</th>
+                        <th>В наличии</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Печенье</td>
+                        <td>200 г</td>
+                        <td>180 ₽</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <td>Шоколад</td>
+                        <td>100 г</td>
+                        <td>120 ₽</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <td>Кекс</td>
+                        <td>1 шт.</td>
+                        <td>150 ₽</td>
+                        <td>Да</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__box">
+                <h2 class="section-title">О нашем магазине</h2>
+                <p class="about__text">Sweet Shop — небольшой магазин для тех, кто любит сладкое. Мы собрали простые и вкусные десерты, которые подходят для чаепития, праздника или подарка.</p>
+                <ul class="about__list">
+                    <li>Большой выбор сладостей</li>
+                    <li>Удобные цены</li>
+                    <li>Уютная атмосфера</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h2 class="section-title">Контакты</h2>
+            <p class="contacts__text">Будем рады видеть вас в нашем магазине!</p>
+            <p class="contacts__item">Телефон: <a href="tel:+78005553535">8 (800) 555-35-35</a></p>
+            <p class="contacts__item">Почта: <a href="mailto:sweetshop@example.com">sweetshop@example.com</a></p>
+            <p class="contacts__item">Полезная ссылка: <a href="https://www.wikipedia.org/" target="_blank" rel="noopener">Wikipedia</a></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© 2026 Sweet Shop. Учебный проект.</p>
+    </footer>
+</body>
+</html>
